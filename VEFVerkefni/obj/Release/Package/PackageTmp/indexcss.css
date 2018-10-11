@@ -1,11 +1,11 @@
 ﻿body {
     width: 100%;
     margin: 0 auto;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(0, 0, 0);
 }
 
 div {
-    margin-top: 16%;
+    margin-top: 17%;
 }
 
 li {
@@ -14,6 +14,7 @@ li {
     border-bottom: 1px solid white;
     border-top: 1px solid white;
     transition: background-color 1s ease-out;
+    font-size: 1.25em;
 }
 
 li:hover {
@@ -26,5 +27,8 @@ ul {
 }
 
 a {
+    text-decoration: none;
+}
+a:visited {
     text-decoration: none;
 }
