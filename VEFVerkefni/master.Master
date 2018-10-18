@@ -12,9 +12,31 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <div class="topbunk">This is a test</div>
-            <asp:ContentPlaceHolder ID="Changedtext" runat="server">
-            </asp:ContentPlaceHolder>
+            <div class="topbunk">
+                <div class="farside inline">
+                    This is a thing
+                </div>
+                <div class="inline">
+                    This is a thing
+                </div>
+                <div class="notfarright inline">
+                    This is a thing
+                </div>
+                <div class="farside inline">
+                    This is a thing
+                </div>
+            </div>
+
+            <div class="MainContent">
+                <div class="sidebar">
+
+                </div>
+                <div class="contentbar">
+                    <asp:ContentPlaceHolder ID="Changedtext" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                
+            </div>
         </div>
     </form>
 </body>
