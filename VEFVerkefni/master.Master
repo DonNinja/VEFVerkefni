@@ -11,7 +11,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div id="content">
             <div class="topbunk">
                 <div class="farside inline">
                     This is a thing
@@ -26,16 +26,18 @@
                     This is a thing
                 </div>
             </div>
-
             <div class="MainContent">
                 <div class="sidebar">
-
+                    <a href="Placeholder" class="barlink"><p class="barsite">content</p></a>
+                    <a href="Placeholder" class="barlink"><p class="barsite">content</p></a>
+                    <a href="Placeholder" class="barlink"><p class="barsite">content</p></a>
+                    <a href="Placeholder" class="barlink"><p class="barsite">content</p></a>
+                    <a href="Placeholder" class="barlink"><p class="barsite">content</p></a>
                 </div>
                 <div class="contentbar">
-                    <asp:ContentPlaceHolder ID="Changedtext" runat="server">
+                    <asp:ContentPlaceHolder ID="contentHolder" runat="server">
                     </asp:ContentPlaceHolder>
                 </div>
-                
             </div>
         </div>
     </form>
