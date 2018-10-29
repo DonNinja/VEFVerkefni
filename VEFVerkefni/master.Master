@@ -13,30 +13,50 @@
     <form id="form1" runat="server">
         <div id="content">
             <div class="topbunk">
-                <div class="farside inline">
-                    This is a thing
-                </div>
-                <div class="inline">
-                    This is a thing
-                </div>
-                <div class="notfarright inline">
-                    This is a thing
-                </div>
-                <div class="farside inline">
-                    This is a thing
-                </div>
+                <a href="index.html" class="topbunklink">
+                    <div class="farside inline">
+                        Index site
+                    </div>
+                </a>
+                <a href="https://github.com/DonNinja/VEFVerkefni/wiki/Sk%C3%BDrsla" class="topbunklink">
+                    <div class="inline">
+                        Skýrsla
+                    </div>
+                </a>
+                <a href="https://github.com/DonNinja/VEFVerkefni" class="topbunklink">
+                    <div class="notfarright inline">
+                        Github
+                    </div>
+                </a>
+                <a href="https://github.com/DonNinja/VEFVerkefni/wiki/G%C3%B6gn" class="topbunklink">
+                    <div class="farside inline">
+                        Gögn
+                    </div>
+                </a>
             </div>
-            <div class="MainContent">
-                <div class="sidebar">
-                    <a href="Placeholder" class="barlink"><p class="barsite">content</p></a>
-                    <a href="Placeholder" class="barlink"><p class="barsite">content</p></a>
-                    <a href="Placeholder" class="barlink"><p class="barsite">content</p></a>
-                    <a href="Placeholder" class="barlink"><p class="barsite">content</p></a>
-                    <a href="Placeholder" class="barlink"><p class="barsite">content</p></a>
-                </div>
-                <div class="contentbar">
-                    <asp:ContentPlaceHolder ID="contentHolder" runat="server">
-                    </asp:ContentPlaceHolder>
+            <div class="MainContentDiv">
+                <div class="MainContent">
+                    <div class="sidebar">
+                        <a href="WebForm1.aspx" class="barlink">
+                            <p class="barsite">Site 1</p>
+                        </a>
+                        <a href="WebForm2.aspx" class="barlink">
+                            <p class="barsite">Site 2</p>
+                        </a>
+                        <a href="Placeholder" class="barlink">
+                            <p class="barsite">Site 3</p>
+                        </a>
+                        <a href="Placeholder" class="barlink">
+                            <p class="barsite">Site 4</p>
+                        </a>
+                        <a href="Placeholder" class="barlink">
+                            <p class="barsite">Site 5</p>
+                        </a>
+                    </div>
+                    <div class="contentbar">
+                        <asp:ContentPlaceHolder ID="contentHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
                 </div>
             </div>
         </div>

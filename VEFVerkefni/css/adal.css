@@ -7,11 +7,25 @@
     color: rgb(255, 255, 255);
 }
 
+.content {
+    flex-direction: row;
+}
+
 .topbunk {
+    order: 1;
     text-align: center;
     background-color: rgb(13, 13, 13);
     border-bottom: 0.5px solid rgb(185, 141, 0);
     height: 50px;
+}
+
+.topbunklink {
+    text-decoration: none;
+}
+
+.inline:hover {
+    background: rgb(61, 60, 58);
+    transition: all .5s ease;
 }
 
 .inline {
@@ -31,20 +45,30 @@
     border-right: 1px solid rgb(185, 141, 0);
 }
 
+.MainContentDiv {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .MainContent {
-    margin: auto;
-    max-width: 60%;
+    margin: 0;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 60%;
+    /*max-width: 60%;*/
     background-color: rgb(24, 24, 25);
     border: .5px solid rgb(185, 141, 0);
     border-top: none;
     border-radius: 3px;
+    height: 100%;
 }
 
 .sidebar {
+    order: 1;
     border-right: .5px solid rgb(185, 141, 0);
-    height: 100%;
     width: 25%;
-    flex: 2;
 }
 
 .barsite {
@@ -71,7 +95,9 @@ a {
 }
 
 .contentbar {
-    margin: 0;
+    padding: 0 1em 0 1em;
+    padding-top: 0;
+    order: 2;
     width: 75%;
     height: 100%;
 }

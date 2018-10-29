@@ -7,11 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace VEFVerkefni
-{
-
-
-    public partial class WebForm2
-    {
+namespace VEFVerkefni {
+    
+    
+    public partial class WebForm2 {
     }
 }
