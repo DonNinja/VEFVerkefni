@@ -9,9 +9,39 @@ namespace VEFVerkefni
 {
     public partial class WebForm2 : System.Web.UI.Page
     {
+
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        protected void Unnamed_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        public void Changed_Click(object sender, EventArgs e)
+        {
+            if (Changed.Text == "You've yet to click the button")
+            {
+                Changed.Text = "You clicked the button";
+            }
+            else if (Changed.Text == "You clicked the button")
+            {
+                Changed.Text = "You clicked the button again, amazing";
+            }
+        }
+
+        protected void Checker_CheckedChanged(object sender, EventArgs e)
+        {
+            if (Checker.Checked)
+            {
+                Checker.Text = "Checked";
+            }
+            else
+            {
+                Checker.Text = "Unchecked";
+            }
         }
     }
 }

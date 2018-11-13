@@ -90,11 +90,13 @@
 
 a {
     color: inherit;
+    padding: inherit;
+    margin: inherit;
 }
 
 .contentbar {
     padding: 0;
-    padding-top: 0;
+    padding-bottom: 1em;
     order: 2;
     width: 75%;
     height: 100%;
