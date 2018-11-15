@@ -33,6 +33,7 @@
     margin: 0 auto;
     padding: 1em 0 1em 0;
     width: 13em;
+    height: 20px;
 }
 
 .notfarright {
@@ -73,6 +74,7 @@
 .barsite {
     margin: 0 auto;
     line-height: 50px;
+    text-align: center;
     border: 1px solid rgb(185, 141, 0);
     border-radius: 90px;
     transition: all .5s ease;
@@ -93,10 +95,10 @@ a {
 }
 
 .contentbar {
-    padding: 0;
+    padding: 0 1em 0 1em;
     padding-top: 0;
     order: 2;
     width: 75%;
     height: 100%;
-    margin: 0 auto;
 }
+
