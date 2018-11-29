@@ -13,5 +13,29 @@ namespace VEFVerkefni
         {
 
         }
+
+        protected void Changed_Click(object sender, EventArgs e)
+        {
+            if (Changed.Text == "You've yet to click the button")
+            {
+                Changed.Text = "You clicked the button";
+            }
+            else if (Changed.Text == "You clicked the button")
+            {
+                Changed.Text = "You clicked the button again, amazing";
+            }
+        }
+
+        protected void Checker_CheckedChanged(object sender, EventArgs e)
+        {
+            if (Checker.Checked)
+            {
+                Checker.Text = "Checked";
+            }
+            else
+            {
+                Checker.Text = "Unchecked";
+            }
+        }
     }
 }

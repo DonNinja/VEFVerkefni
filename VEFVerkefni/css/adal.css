@@ -17,10 +17,13 @@
     background-color: rgb(13, 13, 13);
     border-bottom: 0.5px solid rgb(185, 141, 0);
     height: 50px;
+    margin: 0;
+    padding: 0;
 }
 
 .topbunklink {
     text-decoration: none;
+    width: 210px;
 }
 
 .inline:hover {
@@ -31,7 +34,7 @@
 .inline {
     display: inline-block;
     margin: 0 auto;
-    padding: 1em 0 1em 0;
+    padding: .98em 0 .98em 0;
     width: 13em;
 }
 
@@ -90,11 +93,13 @@
 
 a {
     color: inherit;
+    padding: inherit;
+    margin: inherit;
 }
 
 .contentbar {
     padding: 0;
-    padding-top: 0;
+    padding-bottom: 1em;
     order: 2;
     width: 75%;
     height: 100%;
